@@ -20,34 +20,32 @@
 
           <div class="col-md-6">
             <label for="firstName" class="form-label">First Name</label>
-            <input type="text" class="form-control" id="firstName" required>
+            <input type="text" class="form-control" name="firstname" id="firstName" required>
           </div>
-          
           <div class="col-md-6">
             <label for="lastName" class="form-label">Last Name</label>
-            <input type="text" class="form-control" id="lastName" required>
+            <input type="text" class="form-control" name="lastname" id="lastName" required>
           </div>
           <div class="col-md-8">
             <label for="emailInfo" class="form-label">E-mail</label>
-            <input type="email" class="form-control" id="emailInfo" required>
+            <input type="email" class="form-control" name="email" id="emailInfo" required>
           </div>
           <div class="col-md-4">
             <label for="phoneNumber" class="form-label">Phone Number</label>
-            <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (415) 867-5309">
+            <input type="text" class="form-control" name="phonenumber" id="PhoneNumber" placeholder="+1 (415) 867-5309">
           </div>
             <div class="col-md-6">
             <label for="Serviceaddress" class="Service-address">Service address</label>
-            <input type="text" class="form-control" id="Service Address" placeholder="Address where backflow is located" required>
+            <input type="text" class="form-control" name="serviceaddress" id="ServiceAddress" placeholder="Address where backflow is located" required>
           </div>
           <div class="col-md-4">
             <label for="City" class="City">City</label>
-            <input type="text" class="form-control" id="City">
+            <input type="text" class="form-control" name="city" id="City">
           </div>
           <div class="col-md-2">
             <label for="Zipcode" class="Zipcode">Zip code</label>
-            <input type="text" class="form-control" id="Zipcode">
+            <input type="text" class="form-control" name="Zipcode" id="Zipcode">
           </div>
-            
           <div class="col-md-12">
           <label for="Typeoftest" class="form-label">Type of test</label>
           <select data-mdb-select-init>
@@ -66,7 +64,7 @@
     </div>
     <div class="col-md-12">
      <label for="exampleDatepicker13" class="form-label">Test completed by date</label>
-      <input type="text" class="form-control" id="exampleDatepicker13" data-mdb-toggle="datepicker"placeholder="Due date from the PUD">
+      <input type="text" class="form-control" name="Due date of test" id="exampleDatepicker13" data-mdb-toggle="datepicker"placeholder="Due date from the PUD">
   </div>
   <div class="col-md-10">
     <label for="comments" class="form-label">Comments, questions?</label>
